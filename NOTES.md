@@ -38,3 +38,8 @@ harness source in `.venv/.../swegemma`, forum threads in `reference/discussions/
 - `scripts/build_submission.py agents/<name>` validate + compile with the harness, write `submissions/<name>.zip`
   and `notebooks/<name>/` (submit notebook).
 - `scripts/verify_patches.py --mode gold|empty|dir ids...`
+
+## Submission log
+| Date (UTC) | Ref | Agent | Kernel version | Public LB | Notes |
+|---|---|---|---|---|---|
+| 2026-10-11 | 57066712 | agents/baseline_v1 | g4-agent-baseline-v1 v1 | pending | single agent, 4 min / 40 calls, no search_similar_code |
