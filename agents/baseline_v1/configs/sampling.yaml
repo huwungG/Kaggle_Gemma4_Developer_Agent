@@ -1,0 +1,7 @@
+# prompt + max_output_tokens must fit in vLLM's 32,768-token window, so keep output at 8k.
+temperature: 0.2
+top_p: 0.95
+max_output_tokens: 8192
+thinking_config:
+  thinking_budget: 2048
+  include_thoughts: true

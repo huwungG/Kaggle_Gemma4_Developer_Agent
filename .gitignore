@@ -1,0 +1,10 @@
+# Competition data (22 GB, Apache 2.0 but too large for git)
+data/
+# Build/eval outputs
+runs/
+submissions/*.zip
+__pycache__/
+.venv/
+*.pyc
+# Downloaded third-party notebooks, forum threads, harness wheels
+reference/

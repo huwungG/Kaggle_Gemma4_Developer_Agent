@@ -1,0 +1,9 @@
+# Per-task budgets. Tasks are scored sequentially and the whole run must finish
+# in 12 h (~120 tasks, sandbox setup included), so keep max_time_minutes <= ~5.
+# timeout_seconds is also the pytest timeout in Phase 2 verification
+# (swegemma/harness/verification.py), so do not lower it below 300.
+evaluation:
+  timeout_seconds: 300
+  max_tool_calls: 40
+  max_time_minutes: 4
+  max_turns: 80
